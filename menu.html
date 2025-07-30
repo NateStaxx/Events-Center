@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food & Drink Menu</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav>
+    <div class="logo">Manba Events</div>
+    <!-- Checkbox for the menu toggle -->
+    <input type="checkbox" id="menu-toggle">
+    <!-- Label for the checkbox, this will be the hamburger icon -->
+    <label for="menu-toggle" class="menu-icon">&#9776;</label>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="find-us.html">Find Us</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <header class="page-header">
+    <h1>Food and Drink Menu</h1>
+    <p>Delicious options to satisfy every appetite!</p>
+  </header>
+
+  <main>
+    <table class="menu-table">
+      <thead>
+        <tr>
+          <th>Available</th>
+          <th>Dish</th>
+          <th>Price</th>
+          <th>Image</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Appetizers -->
+        <tr class="category-header">
+          <td colspan="4">Appetizers</td>
+        </tr>
+        <tr>
+          <td>
+            <span class="availability available" aria-label="Available"></span>
+          </td>
+          <td>French Fries</td>
+          <td>$6.00</td>
+          <td><img src="images/french-fries.jpg" alt="French Fries" class="menu-image" /></td>
+        </tr>
+        <tr>
+          <td>
+            <span class="availability available" aria-label="Available"></span>
+          </td>
+          <td>Stuffed Mushrooms</td>
+          <td>$9.50</td>
+          <td><img src="images/stuffed-mushrooms.jpg" alt="Stuffed Mushrooms" class="menu-image" /></td>
+        </tr>
+        <tr>
+          <td>
+            <span class="availability available" aria-label="Available"></span>
+          </td>
+          <td>Fried Pickles</td>
+          <td>$8.00</td>
+          <td><img src="images/fried-pickles.jpg" alt="Fried Pickles" class="menu-image" /></td>
+        </tr>
+
+        <!-- Mains -->
+        <tr class="category-header">
+          <td colspan="4">Mains</td>
+        </tr>
+        <tr>
+          <td>
+            <span class="availability available" aria-label="Available"></span>
+          </td>
+          <td>Grilled Salmon</td>
+          <td>$18.00</td>
+          <td><img src="images/grilled-salmon.jpg" alt="Grilled Salmon" class="menu-image" /></td>
+        </tr>
+        <tr>
+          <td>
+            <span class="availability available" aria-label="Available"></span>
+          </td>
+          <td>Steak Frites</td>
+          <td>$22.50</td>
+          <td><img src="images/steak-frites.jpg" alt="Steak Frites" class="menu-image" /></td>
+        </tr>
+        <tr>
+          <td>
+            <span class="availability available" aria-label="Available"></span>
+          </td>
+          <td>Personal Pizza</td>
+          <td>$14.00</td>
+          <td><img src="images/personal-pizza.jpg" alt="Personal Pizza" class="menu-image" /></td>
+        </tr>
+
+        <!-- Desserts -->
+        <tr class="category-header">
+          <td colspan="4">Desserts</td>
+        </tr>
+        <tr>
+          <td>
+            <span class="availability available" aria-label="Available"></span>
+          </td>
+          <td>Cheesecake</td>
+          <td>$7.00</td>
+          <td><img src="images/cheesecake.jpg" alt="Cheesecake" class="menu-image" /></td>
+        </tr>
+        <tr>
+          <td>
+            <span class="availability available" aria-label="Available"></span>
+          </td>
+          <td>Chocolate Mousse</td>
+          <td>$7.50</td>
+          <td><img src="images/chocolate-mousse.jpg" alt="Chocolate Mousse" class="menu-image" /></td>
+        </tr>
+        <!-- Beverages -->
+        <tr class="category-header">
+          <td colspan="4">Beverages</td>
+        </tr>
+        <tr>
+          <td>
+            <span class="availability available" aria-label="Available"></span>
+          </td>
+          <td>Domestic Beer</td>
+          <td>$7.00</td>
+          <td><img src="images/domestic-beer.jpg" alt="Domestic Beer" class="menu-image" /></td>
+        </tr>
+        <tr>
+          <td>
+            <span class="availability available" aria-label="Available"></span>
+          </td>
+          <td>Imported Beer</td>
+          <td>$10.00</td>
+          <td><img src="images/imported-beer.jpg" alt="Imported Beer" class="menu-image" /></td>
+        </tr>
+        <tr>
+          <td>
+            <span class="availability available" aria-label="Available"></span>
+          </td>
+          <td>Craft Beer</td>
+          <td>$12.00</td>
+          <td><img src="images/craft-beer.jpg" alt="Craft Beer" class="menu-image" /></td>
+        </tr>
+        <tr>
+          <td>
+            <span class="availability available" aria-label="Available"></span>
+          </td>
+          <td>Soft Drinks</td>
+          <td>$5.00</td>
+          <td><img src="images/soft-drinks.jpg" alt="Soft Drinks" class="menu-image" /></td>
+        </tr>
+        <tr>
+          <td>
+            <span class="availability available" aria-label="Available"></span>
+          </td>
+          <td>Water</td>
+          <td>$3.00</td>
+          <td><img src="images/water.jpg" alt="Water" class="menu-image" /></td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2025 Manba Events. All rights reserved.</p>
+  </footer>
+</body>
+</html>
