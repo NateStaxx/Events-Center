@@ -1,7 +1,7 @@
 Events Center Website Project  
 ------------------------------
 
-Description:
+Description: <br>
 This project is a multi-page HTML and CSS website built as part of a coding assignment. 
 It showcases an event center with custom styling, responsive layouts, and clear navigation. Displaying my progression in learing HTML, CSS and JavaScript.
 All required tasks have been completed along with bonus features.
