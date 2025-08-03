@@ -9,7 +9,7 @@ All required tasks have been completed along with bonus features.
 Key Components Implemented:
 
 1. Page Layout & Styling:
-   - Proper use of HTML5 semantic tags such as <nav>, <header>, <main>, <section>, and <footer>.
+   - Proper use of HTML5 semantic tags such as "<nav>, <header>, <main>, <section>, and <footer>".
    - External CSS styles applied for consistent font usage, layout spacing, and color themes.
    - Color scheme follows a clean black, white, and gold theme for an upscale, modern feel.
 
