@@ -13,9 +13,6 @@
 }
 
 /* FONT SETTINGS */
-body {
-  font-family: 'Open Sans', sans-serif;
-}
 
 h1, h2, h3, nav .logo, .menu-icon, button {
   font-family: 'Poppins', sans-serif;

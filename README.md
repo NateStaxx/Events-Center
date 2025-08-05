@@ -38,5 +38,5 @@ Key Components Implemented:
    - All pages are mobile-friendly using CSS flexbox and grid.
    - Images scale appropriately and layout adapts to different screen sizes.
 
-Author: Nathan Hendricks
+Author: NateStaxx
 
