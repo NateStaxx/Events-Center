@@ -12,6 +12,22 @@
   box-sizing: border-box;
 }
 
+/* Page Headers */
+.page-header {
+  text-align: center;
+  margin: 50px 20px 35px;
+  color: var(--black);
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1.5px;
+}
+
+.page-header p {
+  font-weight: 500;
+  font-size: 1.15rem;
+  color: var(--gold);
+}
+
 /* FOOTER */
 footer {
   text-align: center;
