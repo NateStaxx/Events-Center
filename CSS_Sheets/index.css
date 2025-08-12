@@ -80,6 +80,7 @@ footer {
 
 h1, h2, h3, nav .logo, .menu-icon, button {
   font-family: 'Poppins', sans-serif;
+  padding-left: 6px;
 }
 
 h1, h2 {
@@ -211,7 +212,7 @@ nav ul li a:focus {
 }
 
 .event {
-  background-color: white;
+  background-color: var(--white);
   border: 2px solid rgb(0, 0, 0);
   border-radius: 20px;
   padding: 20px;
